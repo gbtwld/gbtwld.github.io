@@ -3,7 +3,8 @@ description: >-
     두재정의 블로그 입니다 <br>
     개발을 곁들인.
 url: "https://gbtwld.github.io"
-baseurl: "/"
+# url: "http://127.0.0.1:4000"
+# baseurl: "/"
 github: gbtwld
 email: gbtwld@gmail.com
 google_analytics: "UA_TOKEN"
