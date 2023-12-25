@@ -3,7 +3,7 @@ description: >-
     Build your own portfolio <br>
     with Hyde.
 url: "https://gbtwld.github.io"
-baseurl: "/"
+baseurl: "/gbtwld"
 github: ChemistryX
 email: changeme@chemistryx.me
 google_analytics: "UA_TOKEN"
