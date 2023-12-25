@@ -2,8 +2,8 @@ title: gbtwld
 description: >-
     Build your own portfolio <br>
     with Hyde.
-url: "https://chemistryx.github.io"
-baseurl: "/hyde"
+url: "https://gbtwld.github.io"
+baseurl: "/"
 github: ChemistryX
 email: changeme@chemistryx.me
 google_analytics: "UA_TOKEN"
