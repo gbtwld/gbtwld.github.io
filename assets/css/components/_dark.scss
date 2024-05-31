@@ -63,17 +63,17 @@
     }
 
     .hyde.post {
-        .hyde.post-thumbnail-wrapper {
-            background-color: $dark200 !important;
+        // .hyde.post-thumbnail-wrapper {
+        //     background-color: $dark200 !important;
 
-            .hyde.post-thumbnail {
-                opacity: 0.8 !important;
+        //     .hyde.post-thumbnail {
+        //         opacity: 0.4 !important;
 
-                &:hover {
-                    opacity: 1 !important;
-                }
-            }
-        }
+        //         &:hover {
+        //             opacity: 0.6 !important;
+        //         }
+        //     }
+        // }
 
         .hyde.post-author {
             color: $gray450 !important;
@@ -88,21 +88,21 @@
         }
     }
 
-    .hyde.portfolio {
-        .hyde.portfolio-item-wrapper {
-            .hyde.portfolio-item {
-                &:hover {
-                    .hyde.thumbnail {
-                        opacity: 0.8 !important;
-                    }
-                }
+    // .hyde.portfolio {
+    //     .hyde.portfolio-item-wrapper {
+    //         .hyde.portfolio-item {
+    //             &:hover {
+    //                 .hyde.thumbnail {
+    //                     opacity: 0.6 !important;
+    //                 }
+    //             }
 
-                .hyde.thumbnail {
-                    opacity: 1 !important;
-                }
-            }
-        }
-    }
+    //             .hyde.thumbnail {
+    //                 opacity: 0.4 !important;
+    //             }
+    //         }
+    //     }
+    // }
 
     .hyde.tags {
         .hyde.tag {
