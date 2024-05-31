@@ -67,10 +67,10 @@
             background-color: $dark200 !important;
 
             .hyde.post-thumbnail {
-                opacity: 0.4 !important;
+                opacity: 0.8 !important;
 
                 &:hover {
-                    opacity: 0.6 !important;
+                    opacity: 1 !important;
                 }
             }
         }
