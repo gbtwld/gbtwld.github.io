@@ -515,7 +515,7 @@ img {
   font-family: Pretendard, sans-serif;
 }
 .hyde.posts .hyde.post {
-  padding: 4rem 0;
+  padding: 2rem 0;
   line-height: 1.4;
 }
 @media (max-width: 768px) {
