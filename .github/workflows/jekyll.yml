@@ -42,6 +42,12 @@ jobs:
             - name: Setup Pages
               id: pages
               uses: actions/configure-pages@v5
+            - name: access to secrets
+              run: |
+                  echo "NOTION_TOKEN=$NOTION_TOKEN\nNOTION_POST_DATABASE_ID=$NOTION_POST_DATABASE_ID" >> .env
+              env:
+                  NOTION_TOKEN: ${{secrets.NOTION_TOKEN}}
+                  NOTION_POST_DATABASE_ID: ${{secrets.NOTION_POST_DATABASE_ID}}
             - name: Get Posts
               run: |
                   git clone https://github.com/gbtwld/blog-notion.git
