@@ -48,6 +48,7 @@ jobs:
                   NOTION_POST_DATABASE_ID: ${{secrets.NOTION_POST_DATABASE_ID}}
               run: |
                   pwd
+                  ls
             - name: Build with Jekyll
               # Outputs to the './_site' directory by default
               run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
