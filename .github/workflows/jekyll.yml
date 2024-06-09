@@ -51,8 +51,8 @@ jobs:
             - name: Get Posts
               run: |
                   git clone https://github.com/gbtwld/blog-notion.git
+                  cp .env blog-notion
                   cd blog-notion
-                  cp ../.env .env
                   npm install
                   npm start
                   cp -r posts ../_posts
