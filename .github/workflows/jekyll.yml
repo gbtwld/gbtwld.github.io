@@ -47,8 +47,12 @@ jobs:
                   NOTION_TOKEN: ${{secrets.NOTION_TOKEN}}
                   NOTION_POST_DATABASE_ID: ${{secrets.NOTION_POST_DATABASE_ID}}
               run: |
-                  pwd
-                  ls
+                  cd ..
+                  git clone https://github.com/gbtwld/blog-notion.git
+                  cd blog-notion
+                  npm install
+                  echo "NOTION_TOKEN=$NOTION_TOKEN\nNOTION_POST_DATABASE_ID=$NOTION_POST_DATABASE_ID" >> .env
+                  npm start
             - name: Build with Jekyll
               # Outputs to the './_site' directory by default
               run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
