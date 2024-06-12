@@ -5,6 +5,7 @@ image: jooda.jpg
 create-date: 2024-06-02
 start-date: 2023-03-20
 end-date: 2023-05-23
+portfolio: true
 ---
 
 주다주다주다!!
