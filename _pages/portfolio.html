@@ -5,15 +5,16 @@ permalink: portfolio
 visible: true
 ---
 
-{% if site.data.portfolio %}
+{% if site.projects %}
 <div class="hyde portfolio row">
-    {% for item in site.data.portfolio reversed %} {% assign identifier = item.image | split: "." | first %}
+    {% for item in site.projects reversed %} {% assign identifier = item.image | split: "." | first %} {% if
+    item.portfolio == true %}
     <div class="hyde portfolio-item-wrapper col-lg-4 col-md-6 col-sm-12">
         <div class="hyde portfolio-item">
             <a href="#{{ identifier }}">
                 <div
                     class="hyde thumbnail"
-                    style="background-image: url('{{ site.baseurl }}/assets/images/portfolio/{{ item.image }}');"
+                    style="background-image: url('{{ site.baseurl }}/assets/images/projects/{{ item.image }}');"
                 ></div>
                 <div class="hyde portfolio-overlay">
                     <h3>{{ item.title }}</h3>
@@ -24,12 +25,12 @@ visible: true
     </div>
     <div id="{{ identifier }}" class="hyde lightbox" onclick="history.back()">
         <img
-            src="{{ site.baseurl }}/assets/images/portfolio/{{ item.image }}"
+            src="{{ site.baseurl }}/assets/images/projects/{{ item.image }}"
             alt="{{ item.image | split: '.' | first }}"
             onclick="event.stopPropagation()"
         />
     </div>
-    {% endfor %}
+    {% endif %} {% endfor %}
 </div>
 {% else %}
 <div class="hyde empty">
