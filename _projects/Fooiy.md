@@ -11,7 +11,7 @@ portfolio: true
 # 푸이(fooiy) - 맛집 리뷰 플랫폼
 
 <aside>
-프로젝트 기간: 2022.10 - 2023.03
+프로젝트 기간: 2022.10 - 2023.03 <br/>
 역할: 프론트엔드 개발
 
 </aside>
@@ -61,4 +61,4 @@ MZ세대를 위한 맛집 리뷰 플랫폼 '푸이(food is yummy)'의 프론트�
 
 ## 🔗 결과물
 
--   ![푸이 결과물](https://github.com/gbtwld/gbtwld.github.io/blob/main/assets/images/projects/fooiy_result.png)
+-   ![푸이 결과물](https://github.com/gbtwld/gbtwld.github.io/blob/main/assets/images/projects/fooiy_result.png?raw=true)
